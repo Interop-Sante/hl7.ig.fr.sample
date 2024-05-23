@@ -19,4 +19,3 @@ Ensemble des ressources téléchargeables :
 
 * [Exemples XML (zip)](examples.xml.zip)
 * [Exemples JSON (zip)](examples.json.zip)
-* [Exemples JSON (zip)](examples.ttl.zip)
