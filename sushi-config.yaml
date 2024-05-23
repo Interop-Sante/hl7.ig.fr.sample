@@ -11,3 +11,14 @@ fhirVersion: 4.0.1
 copyrightYear: 2020+
 releaseLabel: ci-build
 
+pages:
+    index.md:
+        title: Accueil
+    downloads.md:
+        title: Téléchargement du guide
+menu:
+    Accueil: index.html
+    Ressources de conformité: artifacts.html
+    Documentations: 
+        Documentation des IGs: new-tab https://interop.esante.gouv.fr/ig/documentation/
+        Site d'InteropSanté: new-tab https://www.interopsante.org/
