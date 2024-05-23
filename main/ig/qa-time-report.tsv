@@ -1,4 +1,4 @@
 Source File	Size	loadResources	load-configure	scan	loadDepInfo	loadInfo	load	generateSnapshots	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
-/fsh-generated/resources/ImplementationGuide-hl7.fhir.fr.example.json	2134	-	0	0	0	0	0	0	5	54	0	0	0	0	0	0	0	0	0	0	78	91	0	0	1	3	0	3
-fsh-generated/resources/Patient-frpatient-exemple.json	190	14	0	0	0	1	0	0	0	16	0	0	0	0	0	0	0	0	0	0	16	13	0	0	0	0	0	0
-fsh-generated/resources/StructureDefinition-fr-patient.json	632	14	1	0	1	0	0	68	0	66	0	0	1	0	0	0	0	2	0	0	301	3318	0	0	0	10	0	2
+/fsh-generated/resources/ImplementationGuide-hl7.fhir.fr.example.json	2134	-	0	0	0	0	0	0	5	55	0	0	0	0	0	0	0	1	0	0	104	87	0	0	0	3	0	2
+fsh-generated/resources/Patient-frpatient-exemple.json	190	15	0	0	0	0	0	0	0	22	0	0	0	0	0	0	0	0	0	0	15	16	0	0	0	0	0	0
+fsh-generated/resources/StructureDefinition-fr-patient.json	632	13	0	0	0	0	0	77	1	73	0	0	1	0	0	0	0	1	0	0	294	3316	0	1	0	12	0	2
