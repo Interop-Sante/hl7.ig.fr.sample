@@ -1,4 +1,4 @@
-Profile:        FrPatient
+Profile:        FrPatientExample
 Parent:         Patient
 Id:             fr-patient
 Title:          "Patient français"
