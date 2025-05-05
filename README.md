@@ -38,6 +38,3 @@ Des difficultés pour installer ruby et jekyll peuvent survenir sur mac M1, M2: 
 bash _updatePublisher.sh // Mise à jour du publisher java
 bash _genonce.sh // Génère l'IG
 ```
-
-Nicolas Riss
-nicolas.riss@esante.gouv.fr
