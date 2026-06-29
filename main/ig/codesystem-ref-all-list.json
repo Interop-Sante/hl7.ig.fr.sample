@@ -58,5 +58,16 @@
     "uses" : {
     },
     "http://hl7.org/fhir/R4/valueset-marital-status.html" : "MaritalStatus"
+  },
+  {
+    "url" : "urn:ietf:bcp:47",
+    "version" : null,
+    "status" : "draft",
+    "name" : "Ietf_bcp_47",
+    "title" : "IETF Languages",
+    "description" : "Languages on planet Earth",
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-languages.html" : "Common Languages"
   }]
 }
