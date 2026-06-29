@@ -21,6 +21,7 @@ jurisdiction: urn:iso:std:iso:3166#FR "FRANCE"
 parameters:
   shownav: 'true'
   path-expansion-params: '../../expansion-params.json'
+  i18n-default-lang: fr-FR
 
 
 # dependencies:
