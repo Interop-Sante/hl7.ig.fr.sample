@@ -20,6 +20,7 @@ jurisdiction: urn:iso:std:iso:3166#FR "FRANCE"
 
 parameters:
   shownav: 'true'
+  path-expansion-params: '../../expansion-params.json'
 
 
 # dependencies:
@@ -30,10 +31,13 @@ pages:
         title: Accueil
     downloads.md:
         title: Téléchargement du guide
+    translationinfo.md:
+        title: Traductions
 menu:
     Accueil: index.html
     Ressources de conformité: artifacts.html
-    Documentations: 
+    Documentations:
         Documentation des IGs: new-tab https://interop.esante.gouv.fr/ig/documentation/
         Site d'InteropSanté: new-tab https://www.interopsante.org/
         Téléchargements: downloads.html
+        Traductions: translationinfo.html
