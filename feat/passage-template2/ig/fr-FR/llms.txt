@@ -1,0 +1,22 @@
+# hl7.fhir.fr.example#0.1.0: Exemple d'IG Français(fr-FR)
+
+## Pages
+
+* [Accueil](index.md)
+* [Téléchargement du guide](downloads.md)
+* [Traductions](translationinfo.md)
+* [Artifacts Summary](artifacts.md)
+
+## Resources
+
+### Resource Profiles
+
+* [Patient français](StructureDefinition-fr-patient.md)
+
+### ImplementationGuides
+
+* [Exemple d'IG Français](ImplementationGuide-hl7.fhir.fr.example.md)
+
+### Examples
+
+* [frpatient-exemple (Patient)](Patient-frpatient-exemple.md)
