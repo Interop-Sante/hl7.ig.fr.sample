@@ -15,11 +15,26 @@ status: draft
 version: 0.1.0
 fhirVersion: 4.0.1
 copyrightYear: 2024+
-releaseLabel: ci-build
-jurisdiction: urn:iso:std:iso:3166#FR "FRANCE"
+releaseLabel: ci-build # le release label doit être conforme au cycle de vie de la doctrine du ci-sis. Cf. https://interop.esante.gouv.fr/ig/documentation/mod_bonnes_pratiques.html#release-dun-ig-fhir colonne "label de publication"
+jurisdiction: urn:iso:std:iso:3166#FR "France (la)"
 
-parameters:
-  shownav: 'true'
+parameters: #Parameters list - https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html
+    shownav: 'true'
+    path-expansion-params: '../../expansion-params.json' # for using French SNOMED CT Extension
+    pin-canonicals: pin-all
+    apply-contact: true
+    logging:
+      - tx #tx: Messages describing the use of the terminology server (for debugging)
+      - html #html: Log when validating an html page (troubleshooting only - leave off)
+      - generate #generate: Log when producing an individual resource (troubleshooting only - leave off)
+      - init #init: Messages describing the start up process (for debugging)
+      - progress #progress: Overall progress messages
+    i18n-default-lang: fr # Default language
+    apply-jurisdiction: true
+    i18n-lang:
+      - en
+    translation-sources:
+      - input/translations/en
 
 
 # dependencies:
@@ -30,10 +45,13 @@ pages:
         title: Accueil
     downloads.md:
         title: Téléchargement du guide
+    translationinfo.md:
+        title: Traductions
 menu:
     Accueil: index.html
     Ressources de conformité: artifacts.html
-    Documentations: 
+    Documentations:
         Documentation des IGs: new-tab https://interop.esante.gouv.fr/ig/documentation/
         Site d'InteropSanté: new-tab https://www.interopsante.org/
         Téléchargements: downloads.html
+        Traductions: translationinfo.html
